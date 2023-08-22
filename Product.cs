@@ -9,7 +9,7 @@
         public decimal StandarCost
         {
             get { return _StandarCost; }
-            set { _StandarCost = value; _Profit = _ListPrice - _StandarCost; }
+            set { _StandarCost = value; }
         }
 
         private decimal _ListPrice;
@@ -17,14 +17,10 @@
         public decimal ListPrice
         {
             get { return _ListPrice; }
-            set { _ListPrice = value; _Profit = _ListPrice - _StandarCost; }
+            set { _ListPrice = value; }
         }
 
-        private decimal _Profit;
-        public decimal Profit
-        {
-            get { return _Profit; }
-        }
+        public decimal Profit => _ListPrice - StandarCost;
 
     }
 
