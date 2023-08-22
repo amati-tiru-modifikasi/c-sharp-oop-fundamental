@@ -1,9 +1,11 @@
 ﻿using CSharpFundamentals;
 
-Product entity = new();
+Product entity = new()
+{
+    ProductId = 1,
+    Name = "Test"
+};
 
-entity.ProductId = 1;
-entity.Name = "Test";
 
 Console.WriteLine(entity.ProductId);
 Console.WriteLine(entity.Name);
