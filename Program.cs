@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using CSharpFundamentals;
+
+Product entity = new();
+
+entity.ProductId = 1;
+entity.Name = "Test";
+
+Console.WriteLine(entity.ProductId);
+Console.WriteLine(entity.Name);
