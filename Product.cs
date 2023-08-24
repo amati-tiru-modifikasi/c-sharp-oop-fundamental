@@ -25,9 +25,17 @@
             get { return _Profit; }
         }
 
+        public DateTime SellStartDate { get; set; }
+        public DateTime SellEndDate { get; set; }
+
         private void CalculateProfit()
         {
             _Profit = _ListPrice - _StandarCost;
+        }
+
+        public int GetNumberOfSellDays()
+        {
+            return (SellEndDate - SellStartDate).Days;
         }
 
     }
