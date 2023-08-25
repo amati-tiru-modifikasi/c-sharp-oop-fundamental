@@ -18,6 +18,8 @@ Console.WriteLine(entity.Profit.ToString("c"));
 Console.WriteLine("Days to sell:" + entity.GetNumberOfSellDays());
 Console.WriteLine(entity.CalculateProfit(30.99M, 14.36M).ToString("c"));
 Console.WriteLine(entity.CalculateProfit(30.99M).ToString("c"));
+Console.WriteLine(entity.CalculateProfit(cost: 14.36M, price: 30.99M ).ToString("c"));
+
 
 /* SINTAK #2 */
 /*
