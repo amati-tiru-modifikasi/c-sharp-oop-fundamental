@@ -16,6 +16,7 @@ Console.WriteLine(entity.StandarCost);
 Console.WriteLine(entity.ListPrice);
 Console.WriteLine(entity.Profit.ToString("c"));
 Console.WriteLine("Days to sell:" + entity.GetNumberOfSellDays());
+Console.WriteLine(entity.CalculateProfit(30.99M, 14.36M).ToString("c"));
 
 
 /* SINTAK #2 */
