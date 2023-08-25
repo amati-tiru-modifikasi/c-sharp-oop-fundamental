@@ -83,6 +83,17 @@
             return price - cost;
         }
 
+        public void TrialIncreaseByPercentage(decimal percent, out decimal price, out decimal cost)
+        {
+            // must init out params
+            price = ListPrice;
+            cost = StandarCost;
+
+            // set ke manapun kau suka
+            price *= percent;
+            cost *= percent;
+        }
+
     }
 
  
