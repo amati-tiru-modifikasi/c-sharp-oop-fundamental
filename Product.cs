@@ -67,6 +67,14 @@
             return price - cost ?? 1;
         }
 
+        public decimal CalculateProfitByValue(decimal price, decimal cost)
+        {
+            price = 20;
+            cost = 5;
+
+            return price - cost;
+        }
+
     }
 
  

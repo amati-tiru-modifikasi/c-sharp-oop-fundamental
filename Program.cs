@@ -1,6 +1,16 @@
 ﻿using CSharpFundamentals;
 
 
+Product entity = new();
+
+decimal price = 30.99M;
+decimal cost = 14.36M;
+
+Console.WriteLine(entity.CalculateProfitByValue(price, cost).ToString("c"));
+Console.WriteLine(price);
+Console.WriteLine(cost);
+
+/*
 Product entity = new(2, "Car")
 {
     SellEndDate = DateTime.Parse("29/8/2023")
@@ -17,7 +27,7 @@ Console.WriteLine("Days to sell:" + entity.GetNumberOfSellDays());
 Console.WriteLine(entity.CalculateProfit(30.99M, 14.36M).ToString("c"));
 Console.WriteLine(entity.CalculateProfit(30.99M).ToString("c"));
 Console.WriteLine(entity.CalculateProfit(cost: 14.36M, price: 30.99M ).ToString("c"));
-
+*/
 
 /* SINTAK #2 */
 /*
