@@ -3,11 +3,14 @@
     public class Product {
         // Create constructor
         public Product() {
-            Color = "Blue";
+            Color = DEFAULT_COLOR;
             StandarCost = 1.00M;
             ListPrice = 5.00M;
             SellStartDate = DateTime.Now;
         }
+
+        // Hardcode
+        private const string DEFAULT_COLOR = "Blue";
         public int ProductId { get; set; }
         public string Name { get; set; }
 
