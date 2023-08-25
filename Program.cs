@@ -6,7 +6,7 @@ Product entity = new();
 decimal price = 30.99M;
 decimal cost = 14.36M;
 
-Console.WriteLine(entity.CalculateProfitByValue(price, cost).ToString("c"));
+Console.WriteLine(entity.CalculateProfitByRef(ref price, ref cost).ToString("c"));
 Console.WriteLine(price);
 Console.WriteLine(cost);
 

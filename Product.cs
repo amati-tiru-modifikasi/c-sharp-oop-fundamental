@@ -75,6 +75,14 @@
             return price - cost;
         }
 
+        public decimal CalculateProfitByRef(ref decimal price, ref decimal cost)
+        {
+            price = 20;
+            cost = 5;
+
+            return price - cost;
+        }
+
     }
 
  
