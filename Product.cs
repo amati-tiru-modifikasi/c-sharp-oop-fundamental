@@ -2,7 +2,10 @@
 {
     public class Product {
         // Create constructor
-        public Product() {
+        public Product(int id, string name) {
+            ProductId = id;
+            Name = name;
+
             Color = DEFAULT_COLOR;
             StandarCost = 1.00M;
             ListPrice = 5.00M;

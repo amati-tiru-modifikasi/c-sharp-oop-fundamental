@@ -1,10 +1,8 @@
 ﻿using CSharpFundamentals;
 
 
-Product entity = new()
+Product entity = new(2, "Car")
 {
-    ProductId = 1,
-    Name = "Test",
     SellEndDate = DateTime.Parse("29/8/2023")
 };
 
