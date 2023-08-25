@@ -5,14 +5,12 @@ Product entity = new()
 {
     ProductId = 1,
     Name = "Test",
-    StandarCost = 2.99M,
-    ListPrice = 6.99M,
-    SellStartDate = DateTime.Parse("21/8/2023"),
     SellEndDate = DateTime.Parse("29/8/2023")
 };
 
 Console.WriteLine(entity.ProductId);
 Console.WriteLine(entity.Name);
+Console.WriteLine(entity.Color);
 Console.WriteLine('-');
 Console.WriteLine(entity.StandarCost);
 Console.WriteLine(entity.ListPrice);

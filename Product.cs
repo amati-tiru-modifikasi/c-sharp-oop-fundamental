@@ -1,8 +1,17 @@
 ﻿namespace CSharpFundamentals
 {
     public class Product {
+        // Create constructor
+        public Product() {
+            Color = "Blue";
+            StandarCost = 1.00M;
+            ListPrice = 5.00M;
+            SellStartDate = DateTime.Now;
+        }
         public int ProductId { get; set; }
         public string Name { get; set; }
+
+        public string Color { get; set; }
 
         private decimal _StandarCost;
 
