@@ -50,9 +50,9 @@
             return (SellEndDate - SellStartDate).Days;
         }
 
-        public decimal CalculateProfit(decimal price, decimal cost)
+        public decimal CalculateProfit(decimal price, decimal? cost = 1)
         {
-            return price - cost;
+            return price - cost ?? 1;
         }
 
     }
