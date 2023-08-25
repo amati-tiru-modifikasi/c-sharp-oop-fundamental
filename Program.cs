@@ -7,8 +7,8 @@ Product entity = new()
     Name = "Test",
     StandarCost = 2.99M,
     ListPrice = 6.99M,
-    SellStartDate = DateTime.Parse("8/25/2022"),
-    SellEndDate = DateTime.Parse("8/31/2022")
+    SellStartDate = DateTime.Parse("21/8/2023"),
+    SellEndDate = DateTime.Parse("29/8/2023")
 };
 
 Console.WriteLine(entity.ProductId);
@@ -17,7 +17,7 @@ Console.WriteLine('-');
 Console.WriteLine(entity.StandarCost);
 Console.WriteLine(entity.ListPrice);
 Console.WriteLine(entity.Profit.ToString("c"));
-Console.WriteLine("Days to sell:",entity.GetNumberOfSellDays());
+Console.WriteLine("Days to sell:" + entity.GetNumberOfSellDays());
 
 
 /* SINTAK #2 */
