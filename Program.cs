@@ -1,5 +1,6 @@
 ﻿using CSharpFundamentals;
 
+/*
 Product entity = new()
 {
     StandarCost = 10M,
@@ -13,6 +14,7 @@ entity.TrialIncreaseByPercentage(1.1M, out price, out cost);
 
 Console.WriteLine(price);
 Console.WriteLine(cost);
+*/
 
 /*
 Product entity = new();
@@ -71,3 +73,12 @@ Console.Write(entity.LastName);
 Console.Write(entity.CompanyName);
 Console.Write(entity.EmailAddress);
 */
+
+Customer entity = new();
+
+// entity.SetCreditLimit(100000);
+entity.FirstName = "Desta";
+entity.LastName = "Hacker";
+
+Console.WriteLine(entity.CreditLimit.ToString("c"));
+Console.WriteLine(entity.FullName());

@@ -3,6 +3,15 @@ namespace CSharpFundamentals
 {
     public class Customer
     {
+
+        public Customer() {
+            CustomerId = 1;
+            FirstName = string.Empty;
+            LastName = string.Empty;
+            CompanyName = string.Empty;
+            EmailAddress = string.Empty;
+            _CreditLimit = 500000;
+        }
         public int CustomerId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -28,6 +37,16 @@ namespace CSharpFundamentals
         {
             get { return _CreditLimit; }
             set { _CreditLimit = value; }
+        }
+
+        public void SetCreditLimit(decimal limit)
+        {
+            _CreditLimit = limit;
+        }
+
+        public string FullName()
+        {
+            return $"{LastName}, {FirstName}";
         }
     }
 }
