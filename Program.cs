@@ -85,11 +85,14 @@ Console.WriteLine(entity.CreditLimit.ToString("c"));
 Console.WriteLine(entity.FullName());
 */
 
-Person entity = new Person()
+Pegawai entity = new()
 {
     FirstName = "M Desta",
     LastName = "Fadilah",
-    Age = 33
+    Age = 33,
+    PegawaiId = 1,
+    Gaji = 1000000M
 };
 
 Console.WriteLine($"{entity.LastName},{entity.FirstName}");
+Console.WriteLine($"{entity.PegawaiId},{entity.Gaji:c}");
