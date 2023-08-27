@@ -96,3 +96,4 @@ Pegawai entity = new()
 
 Console.WriteLine($"{entity.LastName},{entity.FirstName}");
 Console.WriteLine($"{entity.PegawaiId},{entity.Gaji:c}");
+Console.WriteLine(entity.ToString());
