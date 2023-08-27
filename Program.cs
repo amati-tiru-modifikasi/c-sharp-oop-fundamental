@@ -74,6 +74,7 @@ Console.Write(entity.CompanyName);
 Console.Write(entity.EmailAddress);
 */
 
+/*
 Customer entity = new();
 
 // entity.SetCreditLimit(100000);
@@ -82,3 +83,13 @@ entity.LastName = "Hacker";
 
 Console.WriteLine(entity.CreditLimit.ToString("c"));
 Console.WriteLine(entity.FullName());
+*/
+
+Person entity = new Person()
+{
+    FirstName = "M Desta",
+    LastName = "Fadilah",
+    Age = 33
+};
+
+Console.WriteLine($"{entity.LastName},{entity.FirstName}");
