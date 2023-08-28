@@ -1,7 +1,7 @@
 ﻿
 namespace CSharpFundamentals
 {
-    public class Customer
+    public class Customer : Person
     {
 
         public Customer() {
