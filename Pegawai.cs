@@ -6,6 +6,11 @@ namespace CSharpFundamentals
         public int PegawaiId {  get; set; }
         public decimal Gaji { get; set; }
 
+        public override string GetInfo()
+        {
+            return $"Pegawai ID: {PegawaiId}: {base.GetInfo()} - Gaji: {Gaji:c}";
+        }
+
         public override string ToString()
         {
             string ret = base.ToString();

@@ -94,6 +94,8 @@ Pegawai entity = new()
     Gaji = 1000000M
 };
 
-Console.WriteLine($"{entity.LastName},{entity.FirstName}");
-Console.WriteLine($"{entity.PegawaiId},{entity.Gaji:c}");
-Console.WriteLine(entity.ToString());
+// Console.WriteLine($"{entity.LastName},{entity.FirstName}");
+// Console.WriteLine($"{entity.PegawaiId},{entity.Gaji:c}");
+// Console.WriteLine(entity.ToString());
+
+Console.WriteLine(entity.GetInfo());
