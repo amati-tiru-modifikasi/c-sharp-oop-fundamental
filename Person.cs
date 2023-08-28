@@ -2,18 +2,6 @@
 {
     public class Person
     {
-        public string FirstName { get; set; }  
-        public string LastName { get; set; }
-        public int Age { get; set; }
-
-        public virtual string GetInfo()
-        {
-            return $"{LastName},{FirstName} Age= {Age}";
-        }
-
-        public override string ToString()
-        {
-            return $"{FirstName},{LastName}";
-        }
+        // TODO:  Self-Paced Lab: Create a class, inherit from it and override methods.
     }
 }
