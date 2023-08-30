@@ -4,11 +4,20 @@
     <projectFile>CSharpFundamentals.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fab75ecf-2c26-48c6-b033-58cf8ce90369" name="Changes" comment="" />
+    <list default="true" id="fab75ecf-2c26-48c6-b033-58cf8ce90369" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpFundamentals/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpFundamentals/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSharpFundamentals/v17/.futdcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSharpFundamentals/v17/.futdcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/CSharpFundamentals/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/CSharpFundamentals/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharpfundamentals.metadata.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharpfundamentals.metadata.v7.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharpfundamentals.projects.v7.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/csharpfundamentals.projects.v7.bin" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2UGXhHeAm1ljMR9nRJrGWkh9QEn" />
   <component name="ProjectViewState">
@@ -50,6 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1692567011993</updated>
       <workItem from="1692567017801" duration="28000" />
+      <workItem from="1693278273703" duration="60000" />
+      <workItem from="1693278356818" duration="60000" />
     </task>
     <servers />
   </component>
